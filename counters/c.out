@@ -1,0 +1,18 @@
+mode: set
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:17.22,19.2 1 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:23.46,24.24 1 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:30.2,33.38 3 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:37.2,37.19 1 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:24.24,25.19 1 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:25.19,27.4 1 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:33.38,35.3 1 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:43.58,44.23 1 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:52.2,52.68 1 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:44.23,46.28 1 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:46.28,49.4 2 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:56.58,59.16 3 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:63.2,63.15 1 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:59.16,61.3 1 0
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:67.58,70.16 3 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:74.2,74.15 1 1
+github.com/MichaelKaaden/redux-server-golang/counters/counters.go:70.16,72.3 1 0
