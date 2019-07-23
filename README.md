@@ -26,3 +26,15 @@ and [https://github.com/MichaelKaaden/redux-client-ng](https://github.com/Michae
 
 The other server implementations are located in [https://github.com/MichaelKaaden/redux-server](https://github.com/MichaelKaaden/redux-server)
 and [https://github.com/MichaelKaaden/redux-server-nest](https://github.com/MichaelKaaden/redux-server-nest).
+
+## Building and Running the Server
+
+To build and run the app, you need to install the Gin Web Framework
+and its CORS middleware first.
+
+To do so:
+```bash
+$ go get github.com/gin-gonic/gin
+$ go get github.com/gin-contrib/cors
+$ go run github.com/MichaelKaaden/redux-server-golang
+```
