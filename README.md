@@ -19,14 +19,6 @@ should get it and then use the increment or decrement operations
 on it. For presentations, it is a reasonable choice to set
 some counters before showing anything to your audience.
 
-The client side to this service resides in
-[https://github.com/MichaelKaaden/redux-client-ngrx](https://github.com/MichaelKaaden/redux-client-ngrx),
-[https://github.com/MichaelKaaden/redux-client-ng5](https://github.com/MichaelKaaden/redux-client-ng5),
-and [https://github.com/MichaelKaaden/redux-client-ng](https://github.com/MichaelKaaden/redux-client-ng).
-
-The other server implementations are located in [https://github.com/MichaelKaaden/redux-server](https://github.com/MichaelKaaden/redux-server)
-and [https://github.com/MichaelKaaden/redux-server-nest](https://github.com/MichaelKaaden/redux-server-nest).
-
 ## Building and Running the Server
 
 To build and run the app, you need to install the Gin Web Framework
@@ -38,3 +30,31 @@ $ go get github.com/gin-gonic/gin
 $ go get github.com/gin-contrib/cors
 $ go run github.com/MichaelKaaden/redux-server-golang
 ```
+
+## Alternative and Corresponding Implementations
+
+This is only one possible solution to this kind of problem.
+
+There are some implementations of single-page applications using the services which are implemented in different
+programming languages and frameworks.
+
+Here's the full picture.
+
+## Client-Side Implementations
+
+- [https://github.com/MichaelKaaden/redux-client-ngrx](https://github.com/MichaelKaaden/redux-client-ngrx) (Angular with
+  NgRx)
+- [https://github.com/MichaelKaaden/redux-client-ng5](https://github.com/MichaelKaaden/redux-client-ng5) (Angular
+  with `angular-redux`)
+- [https://github.com/MichaelKaaden/redux-client-ng](https://github.com/MichaelKaaden/redux-client-ng) (AngularJS
+  with `ng-redux`)
+
+## Server-Side Implementations
+
+- [https://github.com/MichaelKaaden/redux-server-rust](https://github.com/MichaelKaaden/redux-server-rust) (Rust
+  with `actix-web`)
+- [https://github.com/MichaelKaaden/redux-server-golang](https://github.com/MichaelKaaden/redux-server-golang) (Go
+  with `Gin`)
+- [https://github.com/MichaelKaaden/redux-server-nest](https://github.com/MichaelKaaden/redux-server-nest) (Node.js
+  with `Nest`)
+- [https://github.com/MichaelKaaden/redux-server](https://github.com/MichaelKaaden/redux-server) (Node.js with `Exprss`)
